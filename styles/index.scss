@@ -1,4 +1,69 @@
-@use "fonts";
-
-@import "global"; 
+@import "fonts";
+@import "global";
+@import "header";
+@import "gridgallery";
  
+body {
+    font-family: $main-font;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.introduction-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.introduction {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5%;
+    margin: 0 auto;
+}
+
+.introduction h3 {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #4A4FF2;
+    padding-bottom: 5%;
+}
+
+.introduction p {
+    max-width: 635px;
+    min-height: 300px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;  
+}
+
+.introduction .colored-text {
+    color: #4A4FF2;
+}
+
+
+.side-title {
+    position: absolute;
+    max-width: 212px;
+    max-height: 34px;
+    right: 198px;
+    top: 360px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    
+}
+
+
+
