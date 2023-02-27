@@ -2,6 +2,7 @@
 @import "global";
 @import "header";
 @import "gridgallery";
+@import "textgallery";
  
 body {
     font-family: $main-font;
@@ -64,6 +65,44 @@ body {
     line-height: 23px;
     
 }
+
+.info-container {
+    width: 80%;
+    min-height: 106px;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+.service-info {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.service-list {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
 
 
 
