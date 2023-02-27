@@ -123,6 +123,30 @@ nav {
   grid-column: span 3;
 }
 
+.width-4 {
+  grid-column: span 5;
+}
+
+.width-5 {
+  grid-column: span 5;
+}
+
+.width-6 {
+  grid-column: span 6;
+}
+
+.width-7 {
+  grid-column: span 7;
+}
+
+.width-8 {
+  grid-column: span 8;
+}
+
+.width-9 {
+  grid-column: span 9;
+}
+
 .text-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);

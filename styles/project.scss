@@ -10,17 +10,17 @@ body {
     width: 100%;
 }
 
-.introduction-container {
+
+.information-container {
     display: flex;
     position: relative;
     width: 80%;
     margin: 0 auto;
     margin-top: 3%;
-    
-   
+
 }
 
-.introduction {
+.information {
     
     display: flex;
     flex-direction: column;
@@ -29,9 +29,10 @@ body {
     
 }
 
-.introduction h3 {
+.information h3 {
     
     max-width: 495px;
+    min-width: 200px;
     width: 100%;
     font-style: normal;
     font-weight: 700;
@@ -40,13 +41,31 @@ body {
     margin-bottom: 25px;
 }
 
-.introduction p {
-
+.information p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 30px;
+}
+
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
 
 }
 
+.blog-info {
+    display: flex;
+    max-width: 1190px;
+    width: 100%;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+   
+}
